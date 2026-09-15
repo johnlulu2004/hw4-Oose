@@ -2,7 +2,6 @@ Interface Segregation Principle (ISP) is the main design principle compromised h
 
 To fix it, we should split Payment into smaller, role-specific interfaces so each class only implements what it actually supports. Something like:
 
-java
 public interface Payment {
 Object status();
 }
